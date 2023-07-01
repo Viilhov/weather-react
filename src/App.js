@@ -1,15 +1,12 @@
 import "./App.css";
-import Weather from "./Weather";
 
-function App() {
+import Search from "./Search";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Welcome to React 🥳</h1>
-        <Weather />
-      </header>
+    <div className="Container">
+      <h1>Weather Search</h1>
+      <Search />
     </div>
   );
 }
-
-export default App;
