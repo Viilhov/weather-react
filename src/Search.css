@@ -1,5 +1,5 @@
 .Search {
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 .Search .search-field {
   padding: 6px 10px;
@@ -18,4 +18,13 @@
 }
 .Search .search-button.green {
   background-color: #198753;
+}
+.weather {
+  color: rgba(0, 0, 0, 0.5);
+}
+.weather li {
+  list-style-type: none;
+}
+.weather ul {
+  padding: 0;
 }
