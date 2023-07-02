@@ -15,7 +15,7 @@ export default function Search() {
       humidity: response.data.main.humidity,
       icon: 0,
       city: response.data.main.name,
-      icon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
+      weathericon: `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
     });
   }
 
@@ -53,7 +53,7 @@ export default function Search() {
             <li>Humidity {weather.humidity}</li>
             <li>Wind {Math.round(weather.wind)}</li>
             <li>
-              <img src={weather.icon} alt="weather symbol" />
+              <img src={weather.weathericon} alt="weather symbol" />
             </li>
           </ul>
         </div>
