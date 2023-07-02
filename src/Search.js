@@ -36,7 +36,8 @@ export default function Search() {
         className="search-field"
         onChange={displayCity}
       />
-      <input type="submit" value="Search" />
+      <input className="search-button" type="submit" value="Search" />
+      <input className="search-button green" type="submit" value="Current" />
     </form>
   );
   if (loaded) {

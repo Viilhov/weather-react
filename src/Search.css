@@ -1,8 +1,21 @@
+.Search {
+  margin-bottom: 30px;
+}
 .Search .search-field {
-  padding: 10px;
-  margin-right: 4px;
+  padding: 6px 10px;
   width: 40%;
   border-color: rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
+}
+.Search .search-button {
+  padding: 6px 18px;
+  border-radius: 6px;
+  background-color: #0b6efd;
+  color: #fff;
+  border: none;
+  margin-left: 4px;
+}
+.Search .search-button.green {
+  background-color: #198753;
 }
